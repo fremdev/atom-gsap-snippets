@@ -1,0 +1,19 @@
+{
+  "name": "atom-gsap-snippets",
+  "version": "0.0.0",
+  "description": "GSAP(GreenSock Animation Platform) snippets for atom",
+  "keywords": [
+    "GSAP",
+    "snippets",
+    "GreenSock"    
+  ],
+  "repository": "https://github.com/fremdev/atom-gsap-snippets",
+  "license": "MIT",
+  "author": {
+    "name": "Alex Efremov"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

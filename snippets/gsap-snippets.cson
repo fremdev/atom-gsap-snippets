@@ -1,0 +1,22 @@
+'.source.js':
+  'Tween':
+    'prefix': 'tween'
+    'body': 'Tween${1:Lite}.${2:to}(${3:elem}, ${4:1}, {${5:vars}})$6'
+  'to GSAP':
+    'prefix': 'to'
+    'body': 'to(${1:elem}, ${2:1}, {${3:vars}}${4})$5'
+  'from GSAP':
+    'prefix': 'from'
+    'body': 'from(${1:elem}, ${2:1}, {${3:vars}}${4})$5'
+  'fromTo':
+    'prefix': 'fromto'
+    'body': 'fromTo(${1:elem}, ${2:1}, {${4:fromVars}}, {${5:toVars}}${6})$7'
+  'stagger':
+    'prefix': 'stag'
+    'body': 'stagger${1:To}(${2:elem}, ${3:1}, {${4:vars}}, ${5:0})$6'
+  'staggerFromTo':
+    'prefix': 'stagfromto'
+    'body': 'staggerFromTo(${1:elem}, ${2:1}, {${4:fromVars}}, {${5:toVars}}, ${6:0})$7'
+  'set GSAP':
+    'prefix': 'set'
+    'body': 'set(${1:elem}, {${2:vars}}$3)$4'           
